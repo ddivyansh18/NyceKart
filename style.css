@@ -1,0 +1,22 @@
+.book-display-padding {
+  padding-top: 5rem;
+}
+
+.book-cover {
+  height: 12rem;
+  width: 10rem;
+}
+
+.hero-banner {
+  border-radius: 50%;
+  padding: 1rem;
+  width: 90%;
+}
+
+.main-banner {
+  width: 40%;
+}
+
+.main-banner-container {
+  padding: 1rem;
+}
