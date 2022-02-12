@@ -1,25 +1,3 @@
-@import url("https://nyce-ui.vercel.app/nyce.css");
-
-.navigation {
-  height: 4rem;
-}
-
-.icon-badge {
-  top: -0.4rem;
-  right: -0.6rem;
-}
-
-.navigation-shadow {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-
-.search-bar {
-  padding: 0.5rem;
-  width: 15rem;
-  padding-left: 2rem;
-}
-
 .book-display-padding {
   padding-top: 5rem;
 }
@@ -41,8 +19,4 @@
 
 .main-banner-container {
   padding: 1rem;
-}
-
-.footer {
-  height: 4rem;
 }
