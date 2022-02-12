@@ -20,6 +20,27 @@
   padding-left: 2rem;
 }
 
+/* Sidebar */
+.sidebar-container {
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 15%;
+  border-right: 2px solid black;
+  height: 100vh;
+}
+
+.sidebar-heading {
+  padding-top: 1rem;
+}
+
+.price-range-values-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+
 .footer {
   height: 4rem;
 }

@@ -5,6 +5,7 @@
 .book-cover {
   height: 12rem;
   width: 10rem;
+  cursor: pointer;
 }
 
 .hero-banner {
@@ -19,4 +20,8 @@
 
 .main-banner-container {
   padding: 1rem;
+}
+
+.img-link {
+  display: block;
 }
