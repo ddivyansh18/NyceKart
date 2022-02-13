@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop Books</title>
-    <link rel="icon" href="../../favicon.svg" />
+    <title>Cart</title>
+    <link rel="icon" href="../favicon.svg" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -14,14 +14,14 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../default.css" />
-    <link rel="stylesheet" href="shop-books.css" />
+    <link rel="stylesheet" href="../default.css" />
+    <link rel="stylesheet" href="wishlist.css" />
   </head>
   <body>
     <nav
       class="navigation navigation-shadow black-bg white-color fixed-position width-100-percent z-index-2"
     >
-      <a href="../../index.html">
+      <a href="../index.html">
         <div class="navigation-title-container white-color">
           <div class="material-icons-outlined md-36">shopping_cart</div>
           <h1>NyceKart</h1>
@@ -42,14 +42,14 @@
 
       <ul class="navigation-links-container">
         <li class="navigation-link-item">
-          <a href="../../auth/login.html" target="_blank">
+          <a href="../auth/login.html" target="_blank">
             <button class="button pillbox-button white-bg black-color">
               Log In
             </button>
           </a>
         </li>
         <li class="navigation-link-item">
-          <a href="../../user/wishlist.html" target="_blank">
+          <a href="./wishlist.html" target="_blank">
             <div class="badge-container">
               <span class="material-icons-outlined md-36">
                 favorite_border
@@ -59,7 +59,7 @@
           </a>
         </li>
         <li class="navigation-link-item">
-          <a href="../../cart/review-cart.html" target="_blank">
+          <a href="../cart/review-cart.html" target="_blank">
             <div class="badge-container">
               <span class="material-icons-outlined md-36"> shopping_bag </span>
               <span class="icon-badge white-bg black-border"> </span>
@@ -69,116 +69,17 @@
       </ul>
     </nav>
 
-    <div class="page-content-container">
-      <aside class="sidebar-container fixed-position">
-        <div class="filters-heading-container row-container">
-          <h1>Filters</h1>
-        </div>
-
-        <h2 class="sidebar-heading">Price</h2>
-        <div class="price-slider">
-          <div class="price-range-values-container width-100-percent">
-            <h3>0</h3>
-            <h3>2500</h3>
-            <h3>5000</h3>
-          </div>
-          <input
-            type="range"
-            min="10"
-            max="10000"
-            id="price-slider"
-            class="width-100-percent"
-          />
-        </div>
-
-        <h2 class="sidebar-heading">Category</h2>
-        <div class="categories-container">
-          <input
-            type="checkbox"
-            id="fiction-books-checkbox"
-            name="category"
-            value="Category"
-          />
-          <label for="fiction-books-checkbox"> Fiction </label><br />
-          <input
-            type="checkbox"
-            id="nonfiction-books-checkbox"
-            name="category"
-            value="Category"
-          />
-          <label for="nonfiction-books-checkbox"> Non-Fiction</label>
-
-          <h2 class="sidebar-heading">Rating</h2>
-          <div class="column-container">
-            <div class="row-container">
-              <input
-                type="radio"
-                name="rating-filter"
-                id="4-stars-and-above"
-                value="value1"
-              />
-              <label for="4-stars-and-above"> 4 stars and above</label>
-            </div>
-            <div class="row-container">
-              <input
-                type="radio"
-                name="rating-filter"
-                id="3-stars-and-above"
-                value="value1"
-              />
-              <label for="3-stars-and-above"> 3 stars and above</label>
-            </div>
-
-            <div class="row-container">
-              <input
-                type="radio"
-                name="rating-filter"
-                id="2-stars-and-above"
-                value="value1"
-              />
-              <label for="2-stars-and-above"> 2 stars and above</label>
-            </div>
-
-            <div class="row-container">
-              <input
-                type="radio"
-                name="rating-filter"
-                id="1-star-and-above"
-                value="value1"
-              />
-              <label for="1-star-and-above"> 1 star and above</label>
-            </div>
-          </div>
-
-          <h2 class="sidebar-heading">Sort By</h2>
-          <div class="row-container">
-            <input
-              type="radio"
-              name="price-filter"
-              id="price-low-to-high"
-              value="value1"
-            />
-            <label for="price-low-to-high"> Price - Low To High</label>
-          </div>
-          <div class="row-container">
-            <input
-              type="radio"
-              name="price-filter"
-              id="price-high-to-low"
-              value="value1"
-            />
-            <label for="price-high-to-low"> Price - High To Low</label>
-          </div>
-        </div>
-      </aside>
-
+    <div class="page-content-container column-container">
+      <h1>My Wishlist</h1>
       <div class="products-container">
         <!-- Sample card 1 -->
         <div
           class="card card-default-shadow column-container products-grid-item"
         >
           <div class="card-extras">
-            <div class="card-badge bright-red-bg white-color">NEW !</div>
+            <div class="card-badge bright-green-bg white-color">
+              BEST SELLER !
+            </div>
             <div
               class="material-icons-outlined md-36 dismiss-button bright-red-color hidden-visibility"
             >
@@ -212,7 +113,9 @@
               </button>
             </div>
             <div class="action-icons">
-              <span class="material-icons-outlined"> favorite_border </span>
+              <span class="material-icons-outlined bright-red-color">
+                favorite
+              </span>
               <span class="material-icons-outlined"> share </span>
               <span class="material-icons-outlined"> more_vert </span>
             </div>
@@ -257,7 +160,9 @@
               </button>
             </div>
             <div class="action-icons">
-              <span class="material-icons-outlined"> favorite_border </span>
+              <span class="material-icons-outlined bright-red-color">
+                favorite
+              </span>
               <span class="material-icons-outlined"> share </span>
               <span class="material-icons-outlined"> more_vert </span>
             </div>
@@ -306,7 +211,9 @@
               </button>
             </div>
             <div class="action-icons">
-              <span class="material-icons-outlined"> favorite_border </span>
+              <span class="material-icons-outlined bright-red-color">
+                favorite
+              </span>
               <span class="material-icons-outlined"> share </span>
               <span class="material-icons-outlined"> more_vert </span>
             </div>
@@ -353,7 +260,9 @@
               </button>
             </div>
             <div class="action-icons">
-              <span class="material-icons-outlined"> favorite_border </span>
+              <span class="material-icons-outlined bright-red-color">
+                favorite
+              </span>
               <span class="material-icons-outlined"> share </span>
               <span class="material-icons-outlined"> more_vert </span>
             </div>
@@ -400,7 +309,9 @@
               </button>
             </div>
             <div class="action-icons">
-              <span class="material-icons-outlined"> favorite_border </span>
+              <span class="material-icons-outlined bright-red-color">
+                favorite
+              </span>
               <span class="material-icons-outlined"> share </span>
               <span class="material-icons-outlined"> more_vert </span>
             </div>
@@ -446,15 +357,26 @@
               </button>
             </div>
             <div class="action-icons">
-              <span class="material-icons-outlined"> favorite_border </span>
+              <span class="material-icons-outlined bright-red-color">
+                favorite
+              </span>
               <span class="material-icons-outlined"> share </span>
               <span class="material-icons-outlined"> more_vert </span>
             </div>
           </div>
         </div>
-
         <!-- cards end -->
       </div>
     </div>
+
+    <footer class="row-container width-100-percent black-bg white-color footer">
+      <h4>NyceKart</h4>
+      <h4>Disclaimer</h4>
+      <h4>Contact Support</h4>
+      <h4>FAQ</h4>
+      <h4>Privacy Policy</h4>
+      <h4>Refund Policy</h4>
+      <h4>About</h4>
+    </footer>
   </body>
 </html>
