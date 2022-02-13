@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" href="favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../default.css" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body class="bg-image">
+    <nav
+      class="navigation navigation-shadow black-bg white-color fixed-position width-100-percent z-index-2"
+    >
+      <a href="../index.html">
+        <div class="navigation-title-container white-color">
+          <div class="material-icons-outlined md-36">shopping_cart</div>
+          <h1>NyceKart</h1>
+        </div>
+      </a>
+
+      <div
+        class="input-icon-container white-bg black-color search-bar-container"
+      >
+        <div class="material-icons-outlined input-icon white-border">
+          search
+        </div>
+        <input
+          type="text"
+          class="grey-border white-bg search-bar white-border"
+        />
+      </div>
+
+      <ul class="navigation-links-container">
+        <li class="navigation-link-item">
+          <a href="./login.html" target="_blank">
+            <button class="button pillbox-button white-bg black-color">
+              Log In
+            </button>
+          </a>
+        </li>
+        <li class="navigation-link-item">
+          <a href="../user/wishlist.html" target="_blank">
+            <div class="badge-container">
+              <span class="material-icons-outlined md-36">
+                favorite_border
+              </span>
+              <span class="icon-badge white-bg black-border"> </span>
+            </div>
+          </a>
+        </li>
+        <li class="navigation-link-item">
+          <a href="../cart/review-cart.html" target="_blank">
+            <div class="badge-container">
+              <span class="material-icons-outlined md-36"> shopping_bag </span>
+              <span class="icon-badge white-bg black-border"> </span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="page-content-container">
+      <form class="login-container card-shadow column-container white-bg">
+        <h1>Login</h1>
+        <div class="login-field-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="login-field-container">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <div class="row-container">
+          <input type="checkbox" name="remember-me" id="remember-me" />
+          <label for="remember-me"> Remember Me </label>
+          <p class="bright-red-color">Forgot your password ?</p>
+        </div>
+        <input
+          type="submit"
+          class="button pillbox-button black-bg white-color"
+          value="Login"
+        />
+        <div class="row-container">
+          <a href="./signup.html">
+            <h4 class="black-color">Create New Account ></h4>
+          </a>
+        </div>
+      </form>
+    </div>
+
+    <footer class="row-container width-100-percent black-bg white-color footer">
+      <h4>NyceKart</h4>
+      <h4>Disclaimer</h4>
+      <h4>Contact Support</h4>
+      <h4>FAQ</h4>
+      <h4>Privacy Policy</h4>
+      <h4>Refund Policy</h4>
+      <h4>About</h4>
+    </footer>
+  </body>
+</html>
