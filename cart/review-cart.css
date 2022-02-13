@@ -1,0 +1,52 @@
+.card {
+  min-width: 15rem;
+}
+
+.page-content-container {
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.quantity-input {
+  width: 3rem;
+}
+
+.quantity-selection-button {
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.cart-summary-heading {
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  width: 25rem;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wide-button {
+  width: 12rem;
+}
